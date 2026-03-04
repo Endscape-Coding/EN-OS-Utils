@@ -3,8 +3,8 @@
 > **Центральный хаб утилит экосистемы EN-OS**  
 > *Единая точка входа для всех инструментов, разработанных для дистрибутива EN-OS*
 
-![Rust](https://img.shields.io/badge/Rust25-orange?logo=rust)
-![Python](https://img.shields.io/badge/Python25-blue?logo=python)
+![Rust](https://img.shields.io/badge/Rust-orange?logo=rust)
+![Python](https://img.shields.io/badge/Python-blue?logo=python)
 ![License](https://img.shields.io/badge/License-AGPL%2F%20GPL-blue)
 ![Status](https://img.shields.io/badge/Status-Active%20Development-green)
 
