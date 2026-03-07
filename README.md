@@ -11,8 +11,8 @@
 
 <div align="center">
 
-[![Rust](https://img.shields.io/badge/🦀-Rust-orange?style=for-the-badge&logo=rust)](#)
-[![Python](https://img.shields.io/badge/🐍-Python-yellow?style=for-the-badge&logo=python)](#)
+[![Rust](https://img.shields.io/badge/Rust-orange?style=for-the-badge&logo=rust)](#)
+[![Python](https://img.shields.io/badge/Python-yellow?style=for-the-badge&logo=python)](#)
 [![License](https://img.shields.io/badge/⚖️-License-AGPL%2FGPL-blue?style=for-the-badge)](#)
 [![Status](https://img.shields.io/badge/🟢-Active%20Development-green?style=for-the-badge)](#)
 
