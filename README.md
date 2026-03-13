@@ -41,39 +41,29 @@
 ### 🗂️ Каталог утилит
 
 #### 🔧 Системные утилиты
+**[EN-OS-System-Manager](https://github.com/Endscape-Coding/EN-OS-System-Manager)** Графический центр управления системой: мониторинг, настройки, управление сервисами и пакетами.
 
-| Репозиторий | Описание | Технологии | Статус |
-|-------------|----------|-----------|--------|
-| **[EN-OS-System-Manager](https://github.com/Endscape-Coding/EN-OS-System-Manager)** | ✅ **Доступен**. Графический центр управления системой: мониторинг, настройки, управление сервисами и пакетами. | `Tauri` + `Python`/`Go`/`Rust` | 🟢 **Готов к использованию** |
-| **[EN-OS-Zram-Manager](https://github.com/Endscape-Coding/EN-OS-Zram-Manager)** | Универсальный менеджер ZRam: настройка алгоритмов сжатия, размера swap, мониторинг использования памяти и CPU. Работает на любых systemd-дистрибутивах. | `Rust` | 🟡 В разработке |
-| **[EN-OS-Pacman-Key-Manager](https://github.com/Endscape-Coding/EN-OS-Pacman-Key-Manager)** | Утилита для управления ключами pacman: базовые операции с ключами репозиториев. | `Shell`/`Rust` | 🟡 В разработке |
+**[EN-OS-Zram-Manager](https://github.com/Endscape-Coding/EN-OS-Zram-Manager)** Универсальный менеджер ZRam: настройка алгоритмов сжатия, размера swap, мониторинг использования памяти и CPU. Работает на любых systemd-дистрибутивах.
+
+**[EN-OS-Pacman-Key-Manager](https://github.com/Endscape-Coding/EN-OS-Pacman-Key-Manager)** Утилита для управления ключами pacman: базовые операции с ключами репозиториев.
 
 #### 🌐 Удалённое управление и автоматизация
+**[EN-OS-Remote-Assistant](https://github.com/Endscape-Coding/EN-OS-Remote-Assistant)** Telegram-бот для удалённого управления ПК: выполнение команд, скриншоты, управление файлами. Поддержка X11/Wayland, эмуляция ввода через ydotool.
 
-| Репозиторий | Описание | Технологии | Статус |
-|-------------|----------|-----------|--------|
-| **[EN-OS-Remote-Assistant](https://github.com/Endscape-Coding/EN-OS-Remote-Assistant)** | 🤖 Telegram-бот для удалённого управления ПК: выполнение команд, скриншоты, управление файлами. Поддержка X11/Wayland, эмуляция ввода через ydotool. | `Rust` + `teloxide` | 🟡 В разработке |
-| **[EN-OS-Live-Welcome](https://github.com/Endscape-Coding/EN-OS-Live-Welcome)** | Приветственный GUI для Live-сессий EN-OS: быстрый запуск установки, справка, выбор языковых настроек. | `Tauri` + `HTML`/`JS` | 🟡 В разработке |
+**[EN-OS-Live-Welcome](https://github.com/Endscape-Coding/EN-OS-Live-Welcome)** Приветственный GUI для Live-сессий EN-OS: быстрый запуск установки, справка, выбор языковых настроек.
 
 #### 🛠️ Сборка и дистрибуция
+**[EN-OS-Builds](https://github.com/Endscape-Coding/EN-OS-Builds)**. Скрипты и конфигурации для сборки программ EN-OS: профили сборок, автоматизация, управление версиями.
 
-| Репозиторий | Описание | Технологии | Статус |
-|-------------|----------|-----------|--------|
-| **[EN-OS-Builds](https://github.com/Endscape-Coding/EN-OS-Builds)** | 📦 **Доступен**. Скрипты и конфигурации для сборки ISO-образов EN-OS: профили сборок, автоматизация, управление версиями. | `Shell` + `Bash`/`Python` | ⚪ **Существует / Используется** |
-| **[EN-OS-Calamares](https://github.com/Endscape-Coding/EN-OS-Calamares)** | Кастомизированная конфигурация установщика Calamares для EN-OS: разметка, выбор пакетов, брендинг, пост-установочные скрипты. | `C++` + `Python` + `QML` | ⚪ Существует |
-| **[EN-Repository](https://github.com/Endscape-Coding/EN-Repository)** | Конфигурация официального репозитория EN-OS: структура пакетов, управление версиями, зеркалирование. | `pacman` + `repo-add` | ⚪ Активный |
+**[EN-OS-Calamares](https://github.com/Endscape-Coding/EN-OS-Calamares)** Кастомизированная конфигурация установщика Calamares для EN-OS: добавлены особые модули и многое другое.
+
+**[EN-Repository](https://github.com/Endscape-Coding/EN-Repository)** | Конфигурация официального репозитория EN-OS: структура пакетов, управление версиями, зеркалирование.
 
 #### 🎨 Интерфейс и персонализация
+**[en-os-fastfetch](https://github.com/Endscape-Coding/en-os-fastfetch)** Fastfetch с логотипом EN-OS.
 
-| Репозиторий | Описание | Технологии | Статус |
-|-------------|----------|-----------|--------|
-| **[en-os-fastfetch](https://github.com/Endscape-Coding/en-os-fastfetch)** | Кастомная конфигурация fastfetch: логотип EN-OS, цветовая схема, отображение системной информации в терминале. | `JSON`/`Shell` | ⚪ Готов к использованию |
-
-#### 📱 Мобильная совместимость
-
-| Репозиторий | Описание | Технологии | Статус |
-|-------------|----------|-----------|--------|
-| **[EN-OS-termux](https://github.com/Endscape-Coding/EN-OS-termux)** | Адаптация компонентов EN-OS для запуска в Termux на Android: базовые утилиты, окружение, совместимость. | `Shell` + `Rust` | 🧪 Экспериментальный |
+#### 📱 Для мобилок
+**[EN-OS-termux](https://github.com/Endscape-Coding/EN-OS-termux)** Небольшой форк Termux desktop с улучшенным скриптом и обновленными пакетами.
 
 ---
 
@@ -105,18 +95,18 @@ EN-OS — проект с открытым исходным кодом, и мы 
 
 ### 📊 Статус компонентов
 
-| Компонент | Статус | Доступность | Примечание |
-|-----------|--------|-------------|------------|
-| System-Manager | 🟢 Готов | ✅ В репозитории | Основной инструмент управления |
-| EN-OS-Builds | ⚪ Существует | ✅ В репозитории | Используется для сборки пакетов |
-| EN-Repository | ⚪ Активен | ✅ Подключён | Основной источник пакетов |
-| en-os-fastfetch | ⚪ Готов | ✅ В репозитории | Косметическое улучшение |
-| Zram-Manager | 🟡 В разработке | 🔜 Скоро | Оптимизация памяти |
-| Remote-Assistant | 🟡 В разработке | 🔜 Скоро | Удалённое управление |
-| Live-Welcome | 🟡 В разработке | 🔜 Скоро | Приветствие в Live-режиме |
-| Pacman-Key-Manager | 🟡 В разработке | 🔜 Скоро | Управление ключами |
-| EN-OS-Calamares | ⚪ Существует | ✅ В репозитории | Конфигурация установщика |
-| EN-OS-termux | 🧪 Эксперимент | 🔬 Тестирование | Android-совместимость |
+| Компонент | Статус | Доступность |
+|-----------|--------|-------------|
+| System-Manager | 🟢 Готов | ✅ В репозитории |
+| EN-OS-Builds | ⚪ Работает | ✅ В репозитории |
+| EN-Repository | ⚪ Работает | ✅ Работает |
+| en-os-fastfetch | ⚪ Работает | ✅ В репозитории |
+| Zram-Manager | 🟡 В разработке | 🔜 В Testing репозитории |
+| Remote-Assistant | 🟡 В разработке | 🔜 Скоро |
+| Live-Welcome | 🟡 В разработке | 🔜 В Testing репозитории |
+| Pacman-Key-Manager | 🟡 В разработке | 🔜 В Testing репозитории |
+| EN-OS-Calamares | ⚪ Работает | ✅ В репозитории |
+| EN-OS-termux | 🧪 Эксперимент | 🔬 По приколу |
 
 > 🔄 Все репозитории используют **rolling-release** модель: обновления доступны сразу после тестирования.
 
@@ -126,11 +116,9 @@ EN-OS — проект с открытым исходным кодом, и мы 
 
 | Утилита | 🇷🇺 Русский | 🇬🇧 English | 🌐 Другие |
 |---------|-----------|-----------|----------|
-| System-Manager | ✅ | ✅ | В разработке |
+| System-Manager | ✅ | ✅ | Поддерживается большинство языков |
 | Remote-Assistant | ✅ | ✅ | — |
-| Live-Welcome | ✅ | ✅ | В разработке |
-| Zram-Manager | ✅ | ✅ | — |
-| fastfetch | ✅ | ✅ | Через конфиг |
+| Live-Welcome | ✅ | ✅ | Поддерживается большинство языков |
 
 ---
 
@@ -151,13 +139,8 @@ EN-OS — проект с открытым исходным кодом, и мы 
 
 Полный текст лицензий находится в файле `LICENSE` каждого репозитория.
 
-<div align="right">
-
-[⬆ Наверх](#-en-os-utils)
-
-</div>
-
 ---
+
 ## 🇬🇧 English
 
 <div align="center">
@@ -178,38 +161,43 @@ EN-OS — проект с открытым исходным кодом, и мы 
 
 #### 🔧 System Utilities
 
-| Repository | Description | Technologies | Status |
-|------------|-------------|--------------|--------|
-| **[EN-OS-System-Manager](https://github.com/Endscape-Coding/EN-OS-System-Manager)** | ✅ **Available**. Graphical system control center: monitoring, settings, service and package management. | `Tauri` + `Python`/`Go`/`Rust` | 🟢 **Ready for use** |
-| **[EN-OS-Zram-Manager](https://github.com/Endscape-Coding/EN-OS-Zram-Manager)** | Universal ZRam manager: configure compression algorithms, swap size, monitor memory and CPU usage. Works on any systemd-based distribution. | `Rust` | 🟡 In development |
-| **[EN-OS-Pacman-Key-Manager](https://github.com/Endscape-Coding/EN-OS-Pacman-Key-Manager)** | Utility for managing pacman keys: basic operations with repository keys. | `Shell`/`Rust` | 🟡 In development |
+**[EN-OS-System-Manager](https://github.com/Endscape-Coding/EN-OS-System-Manager)**  
+Graphical system control center: monitoring, settings, service and package management.
+
+**[EN-OS-Zram-Manager](https://github.com/Endscape-Coding/EN-OS-Zram-Manager)**  
+Universal ZRam manager: configure compression algorithms, swap size, monitor memory and CPU usage. Works on any systemd-based distribution.
+
+**[EN-OS-Pacman-Key-Manager](https://github.com/Endscape-Coding/EN-OS-Pacman-Key-Manager)**  
+Utility for managing pacman keys: basic operations with repository keys.
 
 #### 🌐 Remote Control & Automation
 
-| Repository | Description | Technologies | Status |
-|------------|-------------|--------------|--------|
-| **[EN-OS-Remote-Assistant](https://github.com/Endscape-Coding/EN-OS-Remote-Assistant)** | 🤖 Telegram bot for remote PC control: command execution, screenshots, file management. Supports X11/Wayland, input emulation via ydotool. | `Rust` + `teloxide` | 🟡 In development |
-| **[EN-OS-Live-Welcome](https://github.com/Endscape-Coding/EN-OS-Live-Welcome)** | Welcome GUI for EN-OS Live sessions: quick installer launch, help, language settings selection. | `Tauri` + `HTML`/`JS` | 🟡 In development |
+**[EN-OS-Remote-Assistant](https://github.com/Endscape-Coding/EN-OS-Remote-Assistant)**  
+Telegram bot for remote PC control: command execution, screenshots, file management. Supports X11/Wayland, input emulation via ydotool.
+
+**[EN-OS-Live-Welcome](https://github.com/Endscape-Coding/EN-OS-Live-Welcome)**  
+Welcome GUI for EN-OS Live sessions: quick installer launch, help, language settings selection.
 
 #### 🛠️ Build & Distribution
 
-| Repository | Description | Technologies | Status |
-|------------|-------------|--------------|--------|
-| **[EN-OS-Builds](https://github.com/Endscape-Coding/EN-OS-Builds)** | 📦 **Available**. Scripts and configurations for building EN-OS ISO images: build profiles, automation, version management. | `Shell` + `Bash`/`Python` | ⚪ **Exists / In use** |
-| **[EN-OS-Calamares](https://github.com/Endscape-Coding/EN-OS-Calamares)** | Customized Calamares installer configuration for EN-OS: partitioning, package selection, branding, post-install scripts. | `C++` + `Python` + `QML` | ⚪ Exists |
-| **[EN-Repository](https://github.com/Endscape-Coding/EN-Repository)** | Official EN-OS repository configuration: package structure, version management, mirroring. | `pacman` + `repo-add` | ⚪ Active |
+**[EN-OS-Builds](https://github.com/Endscape-Coding/EN-OS-Builds)**  
+Scripts and configurations for building EN-OS programs: build profiles, automation, version management.
+
+**[EN-OS-Calamares](https://github.com/Endscape-Coding/EN-OS-Calamares)**  
+Customized Calamares installer configuration for EN-OS: added custom modules and more.
+
+**[EN-Repository](https://github.com/Endscape-Coding/EN-Repository)**  
+Official EN-OS repository configuration: package structure, version management, mirroring.
 
 #### 🎨 Interface & Personalization
 
-| Repository | Description | Technologies | Status |
-|------------|-------------|--------------|--------|
-| **[en-os-fastfetch](https://github.com/Endscape-Coding/en-os-fastfetch)** | Custom fastfetch configuration: EN-OS logo, color scheme, system information display in terminal. | `JSON`/`Shell` | ⚪ Ready for use |
+**[en-os-fastfetch](https://github.com/Endscape-Coding/en-os-fastfetch)**  
+Fastfetch with EN-OS logo.
 
-#### 📱 Mobile Compatibility
+#### 📱 For Mobile
 
-| Repository | Description | Technologies | Status |
-|------------|-------------|--------------|--------|
-| **[EN-OS-termux](https://github.com/Endscape-Coding/EN-OS-termux)** | Adaptation of EN-OS components for running in Termux on Android: basic utilities, environment, compatibility. | `Shell` + `Rust` | 🧪 Experimental |
+**[EN-OS-termux](https://github.com/Endscape-Coding/EN-OS-termux)**  
+A small Termux desktop fork with an improved script and updated packages.
 
 ---
 
@@ -241,18 +229,18 @@ EN-OS is an open-source project, and we welcome community participation:
 
 ### 📊 Component Status
 
-| Component | Status | Availability | Notes |
-|-----------|--------|--------------|-------|
-| System-Manager | 🟢 Ready | ✅ In repository | Main system management tool |
-| EN-OS-Builds | ⚪ Exists | ✅ In repository | Used for building packages |
-| EN-Repository | ⚪ Active | ✅ Connected | Main package source |
-| en-os-fastfetch | ⚪ Ready | ✅ In repository | Cosmetic enhancement |
-| Zram-Manager | 🟡 In development | 🔜 Coming soon | Memory optimization |
-| Remote-Assistant | 🟡 In development | 🔜 Coming soon | Remote control |
-| Live-Welcome | 🟡 In development | 🔜 Coming soon | Live session welcome screen |
-| Pacman-Key-Manager | 🟡 In development | 🔜 Coming soon | Key management |
-| EN-OS-Calamares | ⚪ Exists | ✅ In repository | Installer configuration |
-| EN-OS-termux | 🧪 Experimental | 🔬 Testing | Android compatibility |
+| Component | Status | Availability |
+|-----------|--------|--------------|
+| System-Manager | 🟢 Ready | ✅ In repository |
+| EN-OS-Builds | ⚪ Works | ✅ In repository |
+| EN-Repository | ⚪ Works | ✅ Active |
+| en-os-fastfetch | ⚪ Works | ✅ In repository |
+| Zram-Manager | 🟡 In development | 🔜 In Testing repository |
+| Remote-Assistant | 🟡 In development | 🔜 Coming soon |
+| Live-Welcome | 🟡 In development | 🔜 In Testing repository |
+| Pacman-Key-Manager | 🟡 In development | 🔜 In Testing repository |
+| EN-OS-Calamares | ⚪ Works | ✅ In repository |
+| EN-OS-termux | 🧪 Experimental | 🔬 For fun |
 
 > 🔄 All repositories follow a **rolling-release** model: updates are available immediately after testing.
 
@@ -262,11 +250,9 @@ EN-OS is an open-source project, and we welcome community participation:
 
 | Utility | 🇷🇺 Russian | 🇬🇧 English | 🌐 Others |
 |---------|-----------|-----------|----------|
-| System-Manager | ✅ | ✅ | In development |
+| System-Manager | ✅ | ✅ | Most languages supported |
 | Remote-Assistant | ✅ | ✅ | — |
-| Live-Welcome | ✅ | ✅ | In development |
-| Zram-Manager | ✅ | ✅ | — |
-| fastfetch | ✅ | ✅ | Via config |
+| Live-Welcome | ✅ | ✅ | Most languages supported |
 
 ---
 
@@ -295,14 +281,13 @@ Full license texts are located in the `LICENSE` file of each repository.
 
 ---
 
-> 💬 *«EN-OS - это не просто дистрибутив, это экосистема, где каждая утилита продумана для максимальной гибкости, безопасности и простоты. Добро пожаловать в будущее Linux.»*  
-> *"EN-OS is not just a distribution - it's an ecosystem where every utility is designed for maximum flexibility, security, and simplicity. Welcome to the future of Linux."*  
-> - Endscape
+> 💬 *"EN-OS is not just a distribution — it's an ecosystem where every utility is designed for maximum flexibility, security, and simplicity. Welcome to the future of Linux."*  
+> — Endscape
 
-⭐ **Поставьте звезду / Star the repo**, если проект вам полезен / if you find this project useful!  
-🔁 **Форкните / Fork it**, чтобы предложить улучшения или адаптировать под свои нужды / to suggest improvements or adapt it to your needs.
+⭐ **Star the repo** if you find this project useful!  
+🔁 **Fork it** to suggest improvements or adapt it to your needs.
 
 ---
 
-*Последнее обновление / Last updated: Март / March 2026*  
-*Совместимо с / Compatible with: Arch Linux, EN-OS, Arch-based distributions*
+*Last updated: March 2026*  
+*Compatible with: Arch Linux, EN-OS, Arch-based distributions*
